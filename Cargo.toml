@@ -1,0 +1,12 @@
+[package]
+name = "mud"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+femme = "2.2.1"
+log = "0.4.27"
+tokio = { version = "1.35.1", features = ["full"] } # for async server
+# r3bl_rs_utils_core - friendly name generator.
+r3bl_rs_utils_core = { version = "0.9.12" }
+r3bl_tui = { version = "0.5.1" }
